@@ -30,7 +30,7 @@ const config = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|jpe?g|gif|woff|woff2|ttf)$/i,
+        test: /\.(png|jpe?g|gif|woff|woff2|ttf|html)$/i,
         use: [
           {
             loader: 'file-loader',

@@ -15,9 +15,9 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
-        "no-plusplus": "off",
-        "no-mixed-operators": "off",
-        "no-unused-vars": "warning",
-        "import/prefer-default-export": "off"
+        "no-plusplus": 0,
+        "no-mixed-operators": 0,
+        "no-unused-vars": 1,
+        "import/prefer-default-export": 0,
     }
 };

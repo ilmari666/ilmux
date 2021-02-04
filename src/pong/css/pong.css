@@ -26,7 +26,8 @@ html, body {
 }
 .paddle {
   position: absolute;
-  top: calc(50% - 2rem);
+  top: 0px;
+  left: 0px;
   height: 4rem;
   width: 1rem;
   background-color:#fffdd0;
@@ -35,10 +36,10 @@ html, body {
   left: calc(100% - 1rem);
 }
 .ball {
-  position: relative;
+  position: absolute;
   background-color: #fffdd0;
-  top: 50%;
-  left: 50%;
+  top: calc(50%)px;
+  left: calc(50%)px;
   height: 1rem;
   width: 1em;
 

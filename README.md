@@ -1,6 +1,5 @@
-# ilmux
-Ilmux landing page
-==================
+# ilmux.org landing page
+========================
 install dependencies:
 ---------------------
 npm install

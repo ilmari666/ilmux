@@ -1,5 +1,6 @@
-import { Pong } from './pong/pong.js';
+import { Pong } from './pong/Pong';
 
+let pong;
 window.addEventListener('DOMContentLoaded', (event) => {
-  new Pong();
+  pong = new Pong();
 });
